@@ -25,7 +25,7 @@ body{
 
 .sayfa_alani{
 	display: flex;
-	width: 95%;
+	width: 60%;
 	justify-content: space-around;
 }
 .sayfa {
@@ -46,12 +46,18 @@ body{
 	border: 2px solid white;
 	margin-top: 15%;
 	box-sizing: border-box;
-	height: 250px;
+	height: 180px;
 }
 .kahraman {
-	margin-top: 150px;
-	align-items: flex-end;
-	position: absolute;
-	right: 10%;
-	border: 1px solid white;
+    margin-top: 0px;
+    right: 0px;
+    border: 1px solid white;
+    top: 60px;
 }
+.yetenekler {
+	display: flex;
+	align-items:flex-end;
+	
+}
+
+
